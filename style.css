@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0;
+    background-color: #EFEFEF;
+}
+li,a {
+    font-family: "Roboto",sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+} 
+header {
+    display: flex;
+    justify-content: flex-start;
+    /* align-items: center; */
+    padding: 15px 23% 1% 1%;
+}
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+    
+}
+
+.myPhoto {
+    margin-left: 800px;
+}
+
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+    vertical-align: top;
+}
+nav {
+    align-items: center;
+    display: flex;
+}
+
+
+.sticky-footer {
+    /* left: 0;
+    bottom: 0; */
+    /* width: 100%; */
+    color: rgb(0, 0, 0);
+    text-align: center;
+    /* margin-top: 100px;
+    margin-bottom: 20px; */
+  }
+  .footer{
+    /* margin-top: 139px;
+    margin-bottom: 20px; */
+
+  }
+
+
+.project2, .project1, .bio, .heroImg {
+    margin: 20px;
+    padding: 20px;
+    width: 100%;
+    align-items: center;
+
+   
+}
+  .flexContainer {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+  }
+.projectsContainer {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+}
+
+  .imageBio {
+  /* align-items: flex-start; */
+  display: flex;
+
+  }
+  .myWork{
+    margin: 25px;
+  }
+@media only screen and (max-width: 600px) {
+    .flexContainer, .projectsContainer { display: flex; 
+        flex-direction: column;
+
+    }
+    .myWork, .projectsContainer {
+        width: 100%;
+    }
+.sticky-footer, .footer {
+    margin: 0;
+}
+.heroImg, .bio {
+    grid-template-columns: 10px;
+
+}
+.imageBio{
+    display: grid;
+}
+.nav_links  a {
+        float: none;
+        display: block;
+        text-align: left;
+      
+}
+/* .nav_links li{ */
+    /* display: inline-block;
+    padding: 0px 10px;
+    vertical-align: top;
+} */
+.nav_links {
+display: flex;
+justify-content: space-evenly;
+}
+nav{
+    display: flex;
+}
+/* header{
+    display: flex;
+    align-items: center;
+    padding: 30px 10%;
+} */
+  }
+
